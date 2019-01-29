@@ -4,10 +4,8 @@ def square_array(array)
   array.each do |digit|
   new_digit = digit*digit
   squared_nums.push(new_digit)
-
 end
-array = squared_nums
-return array
+squared_nums
 end
 
 # numbers = [1,2,3,4,5]
